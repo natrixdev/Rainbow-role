@@ -1,2 +1,53 @@
 # Rainbow-role
-Creates a role and rotates color to produce a rainbow. 
+
+![image](https://user-images.githubusercontent.com/71920969/117990890-7dca9880-b335-11eb-9887-d4ace3bd4643.png)
+
+
+[Tutorial](https://www.youtube.com/watch?v=rP25VX6de4A)
+
+**Description:** Creates a role which rotates between colours giving a rainbow like effect.
+
+**Features:**
+
+- 2 New Rainbow Modes (`Fast` & `Gradient`).
+- More colors added.
+- Increased rotation speeds.
+
+- Gradient Mode:
+  - Color Amount: 24 colors.
+  - Color Rotation Speed: 5s.
+- Fast Mode:
+  - Color Amount: 8 colors.
+  - Color Rotation Speed: 700ms | 0.7s.
+
+Must have [Node.JS LTS Version](https://nodejs.org/en/) installed & and some sort of text editor.
+Put your bot token in the `config.json`
+
+Run these commands in the console: (must be in the same folder directory)
+
+```
+npm init
+```
+
+```
+npm i discord.js@12.5.1
+```
+
+```
+npm i chalk
+```
+
+Min Permission(s): `MANAGE_ROLES` or `ADMINISTRATOR`
+
+**Note:** All your bots intents must be toggled on.
+
+Run the `run.bat` file to start once you done everything above. If on mac type `node script.js` in the terminal.
+
+**Does This Work On Repl.it?**
+
+Yes. [Click Here](https://replit.com/@17teen/Rainbow-role?v=1)
+
+## Disclaimer:
+
+This is considered to be API abusing. Use this at your own risk. *(You are also subject to rate limiting)*
+
